@@ -1,10 +1,10 @@
-import globeIcon from "../assets/globe.png"
+import chefClaudeLogo from "../assets/chef-claude-logo.png"
 
 export default function Header() {
     return (
         <header>
-            <img src={globeIcon} alt="globe icon" />
-            <h1>my travel journal.</h1>
+            <img src={chefClaudeLogo} alt="chef claude logo" />
+            <h1>Chef Claude</h1>
         </header>
     )
 }
